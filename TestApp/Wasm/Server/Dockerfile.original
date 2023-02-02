@@ -9,6 +9,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Wasm/Server/Wasm.Server.csproj", "Wasm/Server/"]
 COPY ["Wasm/Client/Wasm.Client.csproj", "Wasm/Client/"]
+COPY ["Wasm/Shared/Wasm.Shared.csproj", "Wasm/Shared/"]
 RUN dotnet restore "Wasm/Server/Wasm.Server.csproj"
 COPY . .
 WORKDIR "/src/Wasm/Server"

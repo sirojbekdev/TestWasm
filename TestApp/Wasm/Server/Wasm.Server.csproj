@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Client\Wasm.Client.csproj" />
-    <ProjectReference Include="..\Shared\Wasm.Shared.csproj" />
   </ItemGroup>
 
 

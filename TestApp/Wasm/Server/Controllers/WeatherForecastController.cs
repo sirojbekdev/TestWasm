@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Wasm.Shared;
 
 namespace Wasm.Server.Controllers
 {

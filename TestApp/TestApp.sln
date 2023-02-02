@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wasm.Server", "Wasm\Server\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wasm.Client", "Wasm\Client\Wasm.Client.csproj", "{2F32FC01-00C5-4327-A149-32D88D936D90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wasm.Shared", "Wasm\Shared\Wasm.Shared.csproj", "{118B4FDF-CD8F-4E2D-A4BF-6C68FB1F373D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{2F32FC01-00C5-4327-A149-32D88D936D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F32FC01-00C5-4327-A149-32D88D936D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F32FC01-00C5-4327-A149-32D88D936D90}.Release|Any CPU.Build.0 = Release|Any CPU
-		{118B4FDF-CD8F-4E2D-A4BF-6C68FB1F373D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{118B4FDF-CD8F-4E2D-A4BF-6C68FB1F373D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{118B4FDF-CD8F-4E2D-A4BF-6C68FB1F373D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{118B4FDF-CD8F-4E2D-A4BF-6C68FB1F373D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
